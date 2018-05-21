@@ -2,6 +2,27 @@ public class Cercle {
 	private float x;
 	private float y;
         
+        public static void main(String[] args) {
+       
+        // Constructora per defecte
+        Cercle c1=new Cercle();
+        
+        // Constructora per paràmetres
+        Cercle c2 = new Cercle(2,6);
+        
+        // Constructora copiadora
+        Cercle c3=new Cercle(c1);
+        
+        /*
+            Mostrarem les característiques dels Poligons p1,p2 i p3 amb mostrarPoligon
+        */
+        
+        System.out.println(c1.toString());
+        System.out.println(c2.toString());
+        System.out.println(c3.toString());
+        
+    }
+        
 	
         
         public Cercle(){
